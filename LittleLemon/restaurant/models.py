@@ -6,7 +6,7 @@ class Booking(models.Model):
     no_of_guests = models.PositiveIntegerField()
     booking_date = models.DateTimeField()
     
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.name} - {self.booking_date.date()}"
     
 class Menu(models.Model):
@@ -14,5 +14,5 @@ class Menu(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     inventory = models.PositiveIntegerField()
     
-    def __str__(self):
+    def __str__(self) -> str:
         return f'{self.title} : {str(self.price)}'
