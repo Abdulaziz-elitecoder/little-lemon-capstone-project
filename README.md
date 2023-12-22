@@ -14,5 +14,5 @@
 
 <h3>UnitTest in VsCode Shell</h3>
 
-<p>PS C:\littlelemon\tests\test_models.py</p>
-<p>PS C:\littlelemon\tests\test_views.py</p>
+<p>\littlelemon\tests\test_models.py</p>
+<p>\littlelemon\tests\test_views.py</p>
