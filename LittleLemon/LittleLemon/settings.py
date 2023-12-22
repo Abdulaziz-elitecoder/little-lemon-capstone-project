@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'restaurant',
     'rest_framework',
     'rest_framework.authtoken',
+    'djoser',
 
 ]
 
@@ -140,3 +141,5 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     )
 }
+
+DJOSER={"USER_ID_FIELD":"username"}
