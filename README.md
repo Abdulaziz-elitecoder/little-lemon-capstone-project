@@ -4,13 +4,13 @@
 
 <h3>Test with Insomnia</h3>
 
-<p>http://127.0.0.1:8000/restaurant/</p>
 <p>http://127.0.0.1:8000/restaurant/booking/</p>
 <p>http://127.0.0.1:8000/restaurant/booking/tables/</p>
 <p>http://127.0.0.1:8000/restaurant/menu/</p>
 <p>http://127.0.0.1:8000/restaurant/menu/<int:pk></p>
 <p>http://127.0.0.1:8000/auth/users/</p>
 <p>http://127.0.0.1:8000/auth/token/login</p>
+<p>http://127.0.0.1:8000/api-token-auth/</p>
 
 <h3>UnitTest in VsCode Shell</h3>
 
